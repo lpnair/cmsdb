@@ -122,6 +122,7 @@ dy_ee_m50 = dy.add_process(
     name="dy_ee_m50",
     id=51450,
     label=rf"$Z \rightarrow ee$",
+    xsecs={13.6: Number(6747, {"tot": 30.85})* kfactor_dy /3},
     color="#b9ac70",
 )
 
@@ -165,6 +166,7 @@ dy_mumu_m50 = dy.add_process(
     name="dy_mumu_m50",
     id=51550,
     label=rf"$Z \rightarrow \mu\mu$",
+    xsecs={13.6: Number(6747, {"tot": 30.85})* kfactor_dy /3},
     color="#b9ac70",
 )
 
